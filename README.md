@@ -21,3 +21,6 @@
   ![Screenshot](https://cdn.discordapp.com/attachments/840935119866429441/843186809298616371/unknown.png)
  > ##### Reminders:<br> • Bot may be inaccurate in some songs<br>•You need to disconnect bot after playing one song.
  
+ <h5>
+Try <a href="https://discord.com/api/oauth2/authorize?client_id=840489745246978089&permissions=36768768&scope=bot">beat$</a> to your server!
+ </h5>
