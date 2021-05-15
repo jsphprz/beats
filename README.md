@@ -1,1 +1,2 @@
-# beats
+# beat$
+### Discord music bot
