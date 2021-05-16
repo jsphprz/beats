@@ -56,7 +56,7 @@ client.remove_command("help")
 
 @client.event
 async def on_ready():
-    await client.change_presence(status=discord.Status.online, activity=discord.Game('music | $help')) #Discord status
+    await client.change_presence(status=discord.Status.online, activity=discord.Game('music | $help')) 
     print('Ready!')
 
 @client.group(invoke_without_command=True)
@@ -68,13 +68,18 @@ async def help(ctx):
     em.add_field(name = "Resume", value = "`$resume`")
     em.add_field(name = "Stop", value = "`$stop`")
     em.add_field(name = "Disconnect bot", value = "$`disconnect`")
-    em.add_field(name = "Check Bot Latency", value = "`$ping`")
+    em.add_field(name = "Check Bot Latency", value = "`$ping
+    em.add_field(name = "GitHub page", value = "``github`", inline=False)
 
     await ctx.send(embed=em)
 
 @client.command(name='ping')
 async def ping(ctx):
     await ctx.send(f'Latancy: {round(client.latency * 1000)}ms')
+
+@client.command('github')
+async def ghub(ctx):
+    await ctx.send('https://github.com/jsphprz/beats')
 
 @client.command(name='play')
 async def play(ctx, url):
