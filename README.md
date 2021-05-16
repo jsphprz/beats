@@ -11,11 +11,15 @@
   • Python 3.8 or above  
   • discord.py  
   ```
-  pip install discord.py
+  pip install discord
   ```
   • PyNaCl
   ```
   pip install PyNaCl
+  ```
+  •youtube-dl
+  ```
+  pip install youtube-dl
   ```
   #### Sample Screenshot
   ![Screenshot](https://cdn.discordapp.com/attachments/840935119866429441/843186809298616371/unknown.png)
