@@ -19,7 +19,7 @@
   ```   
   •youtube-dl  
   ```
-  pip install youtube_dl` or `python -m pip install youtube-dl
+  pip install youtube_dl | python -m pip install youtube-dl
   ```
   #### Sample Screenshot
   ![Screenshot](https://cdn.discordapp.com/attachments/840935119866429441/843186809298616371/unknown.png)
